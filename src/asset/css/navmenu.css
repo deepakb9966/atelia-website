@@ -1,0 +1,82 @@
+.megamenu {
+    position: static;
+  }
+  .navbar_menu_items{
+    justify-content: end;
+  }
+  .navbar-brand{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar{
+    background-color: rgba(20, 53, 84, 1);
+  }
+  .navbar .nav-link{
+    color: #fff;
+  }
+  .navbar .header_menu{
+    padding-left: 50px;
+  }
+  .navbar .navbar-nav .nav-item2{
+    text-align: center;
+    margin-right: 60px;
+  }
+  .megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    color: #fff;
+    width: 100%;
+  }
+  .megamenu2{
+    width: 18%;
+  }
+  .megamenuitems2{
+    padding: 10px 20px;
+  }
+  .megamenuitems{
+    border-radius: 0px 0px 5px 5px  ;
+    background-color: rgb(0, 39, 75);
+    max-width: unset;
+    width: 60%;
+  }
+  .megamenuitems .nav-item{
+    display: flex;
+    width: 100%;
+  }
+  .megamenuitems .nav-link:hover{
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255,0.1);
+  }
+  .megamenuitems .megamenu_heading{
+    color: #71bc4e;
+    font-weight: bold;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .navbar .navbar-nav .nav-item2{
+        margin-right: 0px;
+      }
+      .megamenuitems{
+        width: 70%;
+      }
+      .navbar .header_menu{
+        padding-left: 15px;
+      }
+      .megamenu2{
+        width:75%;
+      }
+  }
+
+  
+  /*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSES
+  * ==========================================
+  *
+  */
+  
+
+  

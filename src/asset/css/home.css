@@ -1,0 +1,66 @@
+.header_bg{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 87vh;
+}
+.header_bg .header_text{
+    width: 60%;
+    padding: 160px 0 0 0;
+}
+.header_bg .bg{
+    padding-left:10px ;
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+}
+.header_bg .header_text h1{
+    padding-left: 15px;
+    font-size: 60px;
+    color: #ffffff;
+}
+.header_bg .header_text h5{
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 1025px) {
+    .header_bg .header_text{
+        padding: 15% 0 0 0;
+    }
+    .header_bg .header_text h1{
+        font-size: 40px;
+        color: #ffffff;
+    }
+  }
+@media only screen and (max-width: 992px) {
+    .header_bg .header_text{
+        padding: 10% 0 0 0;
+    }
+  }
+  @media only screen and (max-width: 499px) {
+    .header_bg .header_text{
+        padding: 10% 0 0 0;
+    }
+    .header_bg .header_text h5{
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 5px;
+    }
+    .header_bg .header_text h1{
+        font-size: 22px;
+        color: #ffffff;
+    }
+  }
+  @media only screen and (max-width: 426px) {
+    .header_bg .header_text{
+        padding: 10% 0 0 0;
+    }
+    .header_bg .header_text h5{
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: 5px;
+    }
+    .header_bg .header_text h1{
+        font-size: 22px;
+        color: #ffffff;
+    }
+  }

@@ -1,0 +1,13 @@
+.footer_bg{
+    background-color: rgb(0, 39, 75);
+    color: #fff;
+}
+
+.logo{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.stamp{
+    color: #71bc4e;
+    font-size: 10px;
+}
