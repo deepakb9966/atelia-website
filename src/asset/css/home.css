@@ -1,7 +1,13 @@
+/* .web{
+    width: 100%;
+} */
+.headerimg{
+    margin-bottom: 50px;
+}
 .header_bg{
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height: 87vh;
+    height: 80vh;
 }
 .header_bg .header_text{
     width: 60%;
@@ -13,13 +19,35 @@
     background-size: 80% 100%;
 }
 .header_bg .header_text h1{
-    padding-left: 15px;
-    font-size: 60px;
+    box-shadow: none;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    width:648px;
+    font-size: 65px;
     color: #ffffff;
+    text-align: left;
 }
 .header_bg .header_text h5{
     color: #fff;
-    letter-spacing: 5px;
+    font-family: "Nunito Bold", "Nunito Regular", "Nunito", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 8.4px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 14px;
+}
+@media only screen and (max-device-width: 850px){
+.header_bg{
+    border-width: 0px;
+    position: absolute;
+    left: -562px;
+    /* top: -6px; */
+    height: 20vh;
+    background-size: 100% auto;
+
+}
 }
 
 @media only screen and (max-width: 1025px) {
@@ -27,14 +55,35 @@
         padding: 15% 0 0 0;
     }
     .header_bg .header_text h1{
-        font-size: 40px;
-        color: #ffffff;
+        font-size: 30px;
+        color: #fff;
     }
+    .header_bg{
+        /* top: -6px; */
+        height: 50vh;
+        background-size: cover;
+        /* background-size: 100% auto; */
+    
+    }
+    .row{
+        width: 374px !important;
+    }
+    .responsive_para{
+        max-width:"100%";
+         margin-top: "260px";
+         
+
+    }
+    .afterimg{
+        height:200vh !important;
+    }
+
   }
 @media only screen and (max-width: 992px) {
     .header_bg .header_text{
         padding: 10% 0 0 0;
     }
+    
   }
   @media only screen and (max-width: 499px) {
     .header_bg .header_text{
@@ -52,15 +101,86 @@
   }
   @media only screen and (max-width: 426px) {
     .header_bg .header_text{
-        padding: 10% 0 0 0;
+        padding: 14% 0 0 0;
+        margin-left: 664px;
+        height: 504px;
     }
     .header_bg .header_text h5{
-        font-size: 14px;
-        color: #fff;
-        letter-spacing: 5px;
+        font-family: "Nunito Bold", "Nunito Regular", "Nunito", sans-serif;
+        font-weight: 700;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        letter-spacing: 8.4px;
+        width: 1000px;
+        color: #ffffff;
+        text-align: left;
+        margin-bottom: 30px;
+        /* line-height: 61px; */
     }
     .header_bg .header_text h1{
-        font-size: 22px;
-        color: #ffffff;
+        font-family: "Nunito Bold", "Nunito Regular", "Nunito", sans-serif;
+    font-weight: 700;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    font-size: 51px;
+    letter-spacing: 3.4px;
+    width: 727px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 71px;
     }
   }
+    .imgbg {
+    border-width: 0px;
+    /* position: absolute; */
+    /* background-position: center; */
+    background-size: cover;
+    position: relative;
+    /* width: 1920px; */
+    flex-direction: column;
+    justify-content: center;
+    height: 768px;
+    display: flex;
+}
+.header_text-imgbg{
+    margin-top: 100px;
+}
+.imgbg .header_text-imgbg h5{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 8.4px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 24px;
+    margin-bottom: 0px !important;
+  
+    /* margin-bottom: 30px; */
+    /* line-height: 61px; */
+}
+.imgbg .header_text-imgbg h1{
+        font-family: "Nunito Bold", "Nunito Regular", "Nunito", sans-serif;
+    font-weight: 700;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    font-size: 51px;
+    /* letter-spacing: 3.4px; */
+    box-shadow: none;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    color: #ffffff;
+    text-align: left;
+    }
+    .row{
+        margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    }
+
+
+

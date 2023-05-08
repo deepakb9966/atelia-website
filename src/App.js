@@ -18,6 +18,7 @@ const App = () => {
   return (
     // <AnimationOnScroll animateIn="animate__fadeInUpBig">
     <BrowserRouter>
+    <div className="web">
       <Navmenu />
       <Routes>
       <Route path="/" element={<Home />} />
@@ -32,7 +33,8 @@ const App = () => {
         <Route path='/contact_us' element={<Contact />}/>
         <Route path='/patners' element={<Patners />}/>
       </Routes>
-      <Footer/>
+      
+      </div>
     </BrowserRouter>
     // </AnimationOnScroll>
   )

@@ -54,20 +54,43 @@
     font-weight: bold;
   }
 
+  @media only screen and (max-device-width: 850px){
+
+/* #u68 {
+    border-width: 0px;
+    position: absolute;
+    left: 28px;
+    top: 650px;
+    width: 488px;
+    height: 19px;
+    display: flex;
+    font-family: "Nunito Bold", "Nunito Regular", "Nunito", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: 8.4px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 14px;
+} */
+  }
+
   @media only screen and (max-width: 992px) {
+
     .navbar .navbar-nav .nav-item2{
         margin-right: 0px;
       }
       .megamenuitems{
-        width: 70%;
+        width: 90%;
       }
       .navbar .header_menu{
         padding-left: 15px;
       }
       .megamenu2{
-        width:75%;
+        width:95%;
       }
   }
+ 
 
   
   /*
